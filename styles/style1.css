@@ -1,0 +1,68 @@
+.montserrat-900 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+.edu-au-vic-wa-nt-hand-400 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Roboto"),
+       /* Если не получилось, загрузит woff2 */
+       url("fonts/roboto/Roboto-Light.woff2") format("woff2"),
+       /* Если браузер не поддерживает woff2, загрузит woff */
+       url("fonts/roboto/Roboto-Light.woff") format("woff");
+}
+html {
+  background-color: #bdb9b9;
+}
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #a09e9e;
+  padding: 20px 40px 20px 40px;
+  border: 5px solid rgba(77, 58, 58, 0.681);
+}
+img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+p,
+h3 {
+    color: rgba(15, 12, 12, 0.856);
+    line-height: 1;
+  }
+h1 {
+ font-family: "Montserrat", sans-serif;
+   font-size: 30px;
+    text-align: center;
+    color: rgb(85, 62, 87);
+    margin: 0;
+    padding: 0px 0;
+    /* text-shadow: 3px 3px 1px black; */
+  }
+h2 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(63, 43, 62);
+  }
+li {
+  line-height: 2;
+  text-shadow: 1px 1px 1px rgb(105, 96, 96);
+  color: rgb(63, 43, 62);
+  }
+a:hover {font-family: "Edu AU VIC WA NT Hand", cursive;
+  background-color: #a5b8bb;
+  color: rgb(35, 55, 84);
+  border: 2px solid rgb(161, 171, 214);}
